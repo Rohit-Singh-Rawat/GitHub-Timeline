@@ -11,7 +11,6 @@
     "prettier",
     "eslint:recommended",
     "next/core-web-vitals",
-    "standard",
     "plugin:tailwindcss/recommended"
   ],
   "parserOptions": {
