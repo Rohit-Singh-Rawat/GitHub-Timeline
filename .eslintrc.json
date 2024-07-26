@@ -1,3 +1,49 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+    "node": true,
+    "es2021": true,
+    "browser": true
+  },
+  "globals": {
+    "React": true
+  },
+  "extends": [
+    "prettier",
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "standard",
+    "plugin:tailwindcss/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx": true }
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-shadow": "off",
+    "arrow-body-style": "off",
+    "import/extensions": "off",
+    "curly": ["error", "multi"],
+    "react/button-has-type": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": "off",
+    "import/prefer-default-export": "warn",
+    "semi": 0,
+    "react/function-component-definition": "off",
+    "indent": "off",
+    "max-len": "off",
+    "comma-dangle": "off",
+    "no-redeclare": "off",
+    "react/jsx-indent": "off",
+    "no-unused-vars": "off",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "operator-linebreak": "off",
+    "object-curly-newline": "off",
+    "function-paren-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "react/require-default-props": "off",
+    "nonblock-statement-body-position": "off",
+    "react/jsx-one-expression-per-line": "off"
+  }
 }
