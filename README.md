@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [GitHub Timeline](https://git-hub-timeline.vercel.app/)
 
-## Getting Started
 
-First, run the development server:
+![GitHub top language](https://img.shields.io/github/languages/top/Rohit-Singh-Rawat/GitHub-Timeline)
+![GitHub last commit](https://img.shields.io/github/last-commit/Rohit-Singh-Rawat/GitHub-Timeline)
+![GitHub stars](https://img.shields.io/github/stars/Rohit-Singh-Rawat/GitHub-Timeline?style=social)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+GitHub Timeline is a web application that visualizes the GitHub activity of a user in a timeline format. It displays a user's repositories, their creation dates, and additional repository information in a visually appealing manner using animations and responsive design.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **User Profile Overview**: Displays the GitHub user's profile picture, bio, followers, following, and account creation date.
+- **Repository Timeline**: Shows repositories in a timeline format with their creation date, star count, fork count, and primary language.
+- **Responsive Design**: Fully responsive and mobile-friendly design.
+- **Animations**: Smooth animations using Framer Motion.
+- **GitHub Calendar**: Visual representation of the user's GitHub contributions over the past year.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
+* Clone the repo
+  
+  ```sh
+  git clone https://github.com/Rohit-Singh-Rawat/GitHub-Timeline.git
+  ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* Install NPM packages
 
-## Deploy on Vercel
+  ```sh
+  npm install
+  ```
+  
+* Run the development server
+  ```sh
+  npm run dev
+  ```
+* Open the application
+Open your browser and navigate to http://localhost:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Usage
+Enter GitHub Username: On the homepage, enter the GitHub username of the user whose timeline you want to generate.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+View Timeline: View the generated timeline displaying repositories and user activity.
