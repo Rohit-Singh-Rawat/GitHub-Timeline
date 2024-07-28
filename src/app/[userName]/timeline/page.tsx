@@ -82,7 +82,7 @@ const Page = async ({ params }: Props) => {
               </span>
             </p>
           </div>
-          <div className="max-h-32 max-w-32 overflow-hidden">
+          <div className="custom__scrollbar max-h-36 max-w-36 overflow-hidden">
             <GitHubCalendarComponent username={params.userName} />
           </div>
         </div>
