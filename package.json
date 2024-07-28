@@ -18,11 +18,17 @@
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
     "@types/three": "^0.167.0",
-    "framer-motion": "^11.3.18",
+    "axios": "^1.7.2",
+    "clsx": "^2.1.1",
+    "devicon": "^2.16.0",
+    "framer-motion": "^11.3.19",
     "lucide-react": "^0.416.0",
+    "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
+    "react-github-calendar": "^4.1.6",
+    "tailwind-merge": "^2.4.0",
     "three": "^0.167.0"
   },
   "devDependencies": {

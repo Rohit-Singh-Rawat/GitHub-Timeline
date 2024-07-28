@@ -43,6 +43,12 @@
     "implicit-arrow-linebreak": "off",
     "react/require-default-props": "off",
     "nonblock-statement-body-position": "off",
-    "react/jsx-one-expression-per-line": "off"
+    "react/jsx-one-expression-per-line": "off",
+    "tailwindcss/no-custom-classname": [
+      "error",
+      {
+        "whitelist": ["colored"]
+      }
+    ]
   }
 }
